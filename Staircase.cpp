@@ -12,7 +12,7 @@ string rtrim(const string &str);
  */
 void staircase(int n) {
   for (int i = 0; i < n; i++) {
-    cout << string(n - i - 1, ' ') << string(i + 1, '*') << endl;
+    cout << string(n - i - 1, ' ') << string(i + 1, '#') << endl;
   }
 }
 
